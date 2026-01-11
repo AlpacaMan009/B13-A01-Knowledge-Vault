@@ -43,7 +43,7 @@ ul{
     list-style: none;
 }
 
-a{
+li a{
     text-decoration: none;
     color: black;
     font-weight: 500;
@@ -54,6 +54,10 @@ a{
     gap: 32px;
 
 
+}
+
+li a:hover{
+    color: #30B868;
 }
 
 .btn1{
