@@ -90,7 +90,7 @@ header{
 .banner{
     text-align: center;
 
-    background: url(./assets/hero-bg.png);
+    background: url(assets/hero-bg.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -231,9 +231,15 @@ h5{
     color: #469165;
 }
 
-.white :hover{
+.white:hover{
     color: #30B868;
     cursor: pointer;
     background-color: white;
 }
+
+.white a:hover{
+    color: #30B868;
+
+}
+
 
