@@ -212,6 +212,7 @@ h5{
     font-weight: 600;
     line-height: 100%;
     color: white;
+    text-decoration: none;
     
 }
 
@@ -234,6 +235,7 @@ h5{
     font-weight: 600;
     line-height: 100%;
     color: #469165;
+    text-decoration: none;
 }
 
 .white:hover{
