@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140;
+    width: 90%;
+    margin: 0 auto;
+
+    height: 92px;
+
+    gap: 40px;
+}
+
+.pic{
+
+    width: 139px;
+    height: 60px;
+ 
+}
+    
+ul{
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    gap: 32px;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 16;
+    width: 102px;
+    height: 24px;
+    line-height: 152%;
+    gap: 32px;
+
+
+}
+
+.btn1{
+    width: 164px;
+    height: 44px;
+    border-radius: 4px;
+    border-style: none;
+    padding: 12 16 12 16;
+    gap: 10px;
+    background-color: #30B868;
+    
+    color: white;
+    
+    font-weight: 600;
+    font-size: 16;
+    font-style: semi-bold;
+    line-height: 100%;   
+
+}
+
+.btn1:hover{
+    background-color: #469165;
+    color: white;
+    cursor: pointer;
+}
+
+header{
+    
+
+    width: 100%;
+    margin: 0 auto;
+    
+}
+.banner{
+    text-align: center;
+
+    background: url(/assets/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    width: 100%;
+    min-height: 100vh;
+    padding-bottom: 179.5PX;
+    position: absolute;
+    
+    
+
+}
+
+.small{
+    display: flex;
+    gap: 6px;
+    width: 229px;
+    height: 35px;
+    border-radius:1000px ;
+   
+    text-align: center;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 115.5px;
+    color: #469165;
+}
+
+.small:hover{
+    
+    background-color: #469165;
+    color: white;
+    cursor: pointer;
+}
+
+h5{
+    text-align: center;
+    
+    margin: 0 auto;
+    
+    width: 183px;
+    height: 19px;
+    font-size: 16px;
+    line-height: 100%;
+    font-weight: 500;
+  
+}
+
+.big{
+    
+    display: block;
+    justify-content: center;
+    align-items: center;
+ 
+    margin: 0 auto;
+    font-size: 72px;
+    line-height: 84px;
+    font-weight: 700;
+
+    margin-top: 51px;
+    margin-bottom: 76px;
+    
+
+}
+
+#st2{
+    color: #30B868;
+}
+
+.para{
+    margin: 0 auto;
+    /* width: 1360px; */
+    height: 60px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 32px;
+    color: white;
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 465px;
+    height: 52px;
+    gap: 16px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.green {
+    margin: 0 auto;
+    width: 251px;
+    height: 52px;
+    border-radius: 4px;
+    padding: 12px 16PX ;
+    gap: 10px;
+    
+    background-color: #30B868;
+    border-style: none;
+}
+
+.green:hover{
+    background-color: #469165;
+    cursor: pointer;
+}
+
+.green a{
+    width: 189px;
+    height: 19px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 100%;
+    color: white;
+    
+}
+
+.white{
+    margin: 0 auto;
+    width: 198px;
+    height: 52px;
+    border-radius: 4px;
+    padding: 12 16 12 16;
+    gap: 10px;
+    
+    background-color: white;
+    border:1px solid #469165
+}
+
+.white a{
+    width: 136px;
+    height: 19px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 100%;
+    color: #469165;
+}
+
+.white :hover{
+    color: #30B868;
+    cursor: pointer;
+    background-color: white;
+}
+
