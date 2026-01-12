@@ -9,8 +9,6 @@
 .inter {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
 }
 
 
@@ -26,7 +24,6 @@
     height: 92px;
 
     gap: 40px;
-    /* background-color: red; */
 }
 
 .pic {
@@ -124,6 +121,7 @@ header {
     justify-content: center;
     margin-top: 115.5px;
     color: #469165;
+    font-size: 14px;
 }
 
 #banner .small:hover {
@@ -187,14 +185,17 @@ header {
     height: 52px;
     border-radius: 4px;
     padding: 12px 16PX;
-    /* gap: 20px; */
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 100%;
+    color: white;
+    text-decoration: none;
 
     background-color: #469165;
     border-style: none;
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: space-around; */
-  
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 #banner .green:hover {
@@ -203,17 +204,6 @@ header {
     transform: scale(1.01);
 }
 
-#banner .green a {
-    width: 189px;
-    height: 19px;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 100%;
-    color: white;
-    text-decoration: none;
-    
-
-}
 
 #banner .white {
     margin: 0 auto;
@@ -222,31 +212,24 @@ header {
     border-radius: 4px;
     padding: 12px 16px;
     gap: 10px;
-
     background-color: white;
-    border: 1px solid #469165
-}
-
-#banner .white a {
-    width: 136px;
-    height: 19px;
+    border: 1px solid #469165;
     font-size: 16px;
     font-weight: 600;
     line-height: 100%;
     color: #469165;
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
+
 
 #banner .white:hover {
     transform: scale(1.01);
     cursor: pointer;
-}
-
-#banner .white a:hover {
     color: #30B868;
 }
-
-
 
 
 #section2 {
@@ -259,7 +242,7 @@ header {
     padding-top: 40px;
 }
 
-#section2 .s2heading{
+#section2 .s2heading {
     height: 116px;
     gap: 16px;
     padding-bottom: 16px;
@@ -449,14 +432,14 @@ header {
     transform: scale(1.01);
 }
 
-#section4 .s4bottom{
+#section4 .s4bottom {
     color: #627382;
     font-size: 15px;
     font-weight: 400;
     line-height: 24px;
 }
 
-footer{
+footer {
     background-color: #001931;
     padding-top: 80px;
     padding-left: 100px;
