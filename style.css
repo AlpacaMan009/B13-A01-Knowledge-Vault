@@ -102,7 +102,7 @@ header{
     width: 100%;
     min-height: 100vh;
     padding-bottom: 179.5PX;
-    position: absolute;
+    position: relative;
     
     
 
@@ -167,7 +167,7 @@ h5{
 
 .para{
     margin: 0 auto;
-    /* width: 1360px; */
+    
     height: 60px;
     text-align: center;
     font-size: 18px;
@@ -250,3 +250,82 @@ h5{
 }
 
 
+#section2{
+   
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    
+   
+}
+
+.text{
+    height: 116px;
+    gap: 16px;
+    padding-bottom: 16px;
+    line-height: 100%;
+    padding-top: 50px;
+}
+
+.text h2{
+    color:#001931; 
+    padding-bottom: 16px;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.para2{
+    height: 20px;
+    color: #627382;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 16px;
+}
+
+.cards{
+    margin: 0 auto;
+    padding-top: 44px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.card1, .card2, .card3, .card4{
+    min-height: 300px;
+    width: 100%;
+    max-width: 322px;
+    border-radius: 8px;
+    padding: 24px;
+    gap: 16px;
+    border: 3px solid blue;
+    box-shadow: 0 0 8px 0 rgb(0, 0, 0, 0.6 );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards h5{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    color: #001931;  
+     justify-content: center;
+     align-items: center;
+     display: flex;
+     margin: 0 auto;
+}
+
+.cards p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-top: 16px;
+    padding-bottom: 21.5px;
+}
